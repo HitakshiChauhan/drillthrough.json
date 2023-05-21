@@ -1,0 +1,19 @@
+{
+  "target": {
+    "table": "distributor_salestable",
+    "column": "'distributor_salestable'[State]",
+    "filter": "selectedState"
+  },
+  "action": {
+    "type": "drillThrough",
+    "drillThroughType": 2,
+    "reportLevelFilters": [],
+    "target": {
+      "dataType": 1,
+      "value": {
+        "url": "https://app.powerbi.com/links/NOsoKVKSON?ctid=bdd6178b-f103-4152-8eed-607b739f12e8&pbi_source=linkShare",
+        "title": "Daily Sales Analysis"
+      }
+    }
+  }
+}
